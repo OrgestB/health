@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "name": "testUser",
+      "password": "Test1234",
+      "role": "Admin",
+      "id": 8
+    },
+    {
+      "email": "beqiriorgest@gmail.com",
+      "name": "Orgest",
+      "password": "Loool123",
+      "id": 9,
+      "role": "User"
+    },
+    {
+      "email": "beqiriorgest@gmail.com",
+      "name": "Orgest Beqiri",
+      "password": "Orge1234",
+      "id": 10,
+      "role": "User"
+    },
+    {
+      "email": "beqiriorgest@gmail.com",
+      "name": "orgest",
+      "password": "Orgest1997",
+      "id": 11,
+      "role": "User"
+    },
+    {
+      "email": "johnSnow@gmail.com",
+      "name": "John",
+      "password": "John1234",
+      "role": "User",
+      "id": 14
+    },
+    {
+      "email": "beqiriorgest45@gmail.com",
+      "name": "Orgest",
+      "password": "Orgest1997",
+      "role": "User",
+      "id": 15
+    }
+  ],
+  "cd": [
+    {
+      "artist": "Pink Floyd",
+      "name": "The Dark Side",
+      "genre": "Pop",
+      "price": 10,
+      "year": 1973,
+      "cover": "https://www.head-records.com/documents/mailorder/images/4053.jpg",
+      "id": 4
+    },
+    {
+      "artist": "J.Cole",
+      "name": "KOD",
+      "genre": "Hip-HopRap",
+      "price": 11,
+      "year": 2018,
+      "cover": "https://static.vibe.com/files/2018/04/sixmau-j-cole-1524081746-compressed.png",
+      "id": 8
+    },
+    {
+      "artist": "Ed Sheeran",
+      "name": "X",
+      "genre": "Pop",
+      "price": 10.99,
+      "year": 2014,
+      "cover": "https://is3-ssl.mzstatic.com/image/thumb/Features/v4/6d/1f/e2/6d1fe23d-eab8-8ccb-cbd2-caa567783b19/dj.xllwtvne.jpg/600x600bf.png",
+      "id": 10
+    },
+    {
+      "artist": "Red Hot Chilli Peppers",
+      "name": "The GetAway",
+      "genre": "Alternative",
+      "price": 13.99,
+      "year": 2016,
+      "cover": "https://i.ebayimg.com/images/g/UAcAAOSwB09YLa1b/s-l300.jpg",
+      "id": 11
+    },
+    {
+      "artist": "The Strokes",
+      "name": "Is this it?",
+      "genre": "Indie",
+      "price": 11.99,
+      "year": 2001,
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/81xesqe7UML._SY355_.jpg",
+      "id": 13
+    },
+    {
+      "artist": "Lorde",
+      "name": "Pure Heroine",
+      "genre": "Indie",
+      "price": 10.99,
+      "year": 2013,
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/815U3MK2jrL._SY355_.jpg",
+      "id": 14
+    },
+    {
+      "artist": "Jeff Buckley",
+      "name": "Grace",
+      "genre": "Rock",
+      "price": 5.55,
+      "year": 1990,
+      "cover": "https://upload.wikimedia.org/wikipedia/en/e/e4/Jeff_Buckley_grace.jpg",
+      "id": 16
+    }
+  ],
+  "orders": [
+    {
+      "clientId": 12,
+      "name": "HBHBHB",
+      "artist": "Florence + The Machine",
+      "quantity": 1,
+      "price": 10,
+      "cover": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/imageFull/.fX9VK_tU/SharedImage-47481.jpg?t=c4398efdfd3fef7f8604",
+      "id": 8
+    }
+  ],
+  "purchase": [
+    {
+      "clientId": 10,
+      "name": "The Dark Side",
+      "artist": "Pink Floyd",
+      "quantity": 1,
+      "price": 10,
+      "cover": "https://www.head-records.com/documents/mailorder/images/4053.jpg",
+      "id": 1
+    },
+    {
+      "clientId": 12,
+      "name": "Wasteland, Baby",
+      "artist": "Hozier",
+      "quantity": 1,
+      "price": 13.99,
+      "cover": "https://m.media-amazon.com/images/I/718WDEiQGUL._SS500_.jpg",
+      "id": 15
+    },
+    {
+      "clientId": 10,
+      "name": "HBHBHB",
+      "artist": "Florence + The Machine",
+      "quantity": 2,
+      "price": 20,
+      "cover": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/imageFull/.fX9VK_tU/SharedImage-47481.jpg?t=c4398efdfd3fef7f8604",
+      "id": 16
+    },
+    {
+      "clientId": 10,
+      "name": "The Dark Side",
+      "artist": "Pink Floyd",
+      "quantity": 3,
+      "price": 30,
+      "cover": "https://www.head-records.com/documents/mailorder/images/4053.jpg",
+      "id": 17
+    }
+  ]
+}

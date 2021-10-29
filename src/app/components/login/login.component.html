@@ -1,0 +1,34 @@
+<div class="container" novalidate>
+    <mat-toolbar color="accent">
+        <span class="fill-remaining-space">Login</span>
+      </mat-toolbar>
+      
+  <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form">
+
+    <mat-form-field class="form-element">
+      <input matInput placeholder="Emailaddress" formControlName="email">
+      <mat-error *ngIf="!formGroup.controls['email'].valid && formGroup.controls['email'].touched">
+        {{ getErrorEmail() }}
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form-element">
+      <input matInput placeholder="Password" formControlName="password"  [type]="hide ? 'password':'text'">
+      <mat-hint>Choose a password of at least eight characters, one uppercase letter and one number</mat-hint>
+      <mat-error *ngIf="!formGroup.controls['password'].valid && formGroup.controls['password'].touched">
+        {{ getErrorPassword() }}
+      </mat-error>
+      <mat-icon matSuffix (click)="hide = !hide">
+          {{hide ? 'visibility' : 'visibility_off'}}
+        </mat-icon>
+    </mat-form-field>
+
+    <h2 class="mat-h2">New account?<a mat-button class="button1" color="accent" routerLink="/register">Register</a></h2> 
+    <h2 class="mat-h2" *ngIf='noMatch'>{{matchAlert}}</h2>
+    <div class="form-element">
+      <button mat-raised-button color="primary" type="submit" class="button" [disabled]="!formGroup.valid">Log in</button>
+      <router-outlet></router-outlet>
+    </div>
+
+  </form>
+</div>
